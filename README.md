@@ -4,4 +4,4 @@ Ultimate Squad Team mebmers | Github Account
 Alinur Sabit | https://github.com/Alimur4ikS9 alinur.sabit.9@gmail.com
 Rinat Sabitov | https://github.com/rinat001
 Eldan Samarkhan | https://github.com/Yeldan
-Alisher Khalykbayev |  
+Alisher Khalykbayev | https://github.com/Alisher12398
