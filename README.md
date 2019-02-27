@@ -1,5 +1,5 @@
 # web-tech19
-**Ultimate Squad** mebmers | Github Account
+**Ultimate Squad** members | Github Account
 ------------ | -------------
 _**Alinur Sabit**_ | https://github.com/Alimur4ikS9 alinur.sabit.9@gmail.com
 **Rinat Sabitov** | https://github.com/rinat001
