@@ -1,10 +1,92 @@
 body {
-    background-color: white;
+    background-color: black;
   }
-  
+
+  /*--------------------------------------------------------------
+# Navbar Section
+--------------------------------------------------------------*/
+
   .navbar-collapse{
   justify-content: flex-end;
   }
   .navbar-toggler{
-    background:#fff !important;
+    background:#11A6F1 !important;
   }
+
+  .nav-link , .navbar-brand{
+    color: #11A6F1 !important;
+    cursor: pointer;
+   }
+   .nav-link{
+    margin-right: 1em !important;
+   }
+
+/*--------------------------------------------------------------
+# Intro Section
+--------------------------------------------------------------*/
+
+#intro {
+  width: 100%;
+  position: relative;
+  background: url("../img/intro-bg.png") center bottom no-repeat;
+  background-size: cover;
+  padding: 200px 0 120px 0;
+}
+
+#intro .intro-img {
+  width: 50%;
+  float: right;
+}
+
+#intro .intro-info {
+  width: 50%;
+  float: left;
+}
+
+#intro .intro-info h2 {
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#intro .intro-info h2 span {
+  color: #74b5fc;
+  text-decoration: underline;
+}
+
+#intro .intro-info .btn-get-started,
+#intro .intro-info .btn-services {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 0 20px 20px 0;
+  color: #fff;
+}
+
+#intro .intro-info .btn-get-started {
+  background: #007bff;
+  border: 2px solid #007bff;
+  color: #fff;
+}
+
+#intro .intro-info .btn-get-started:hover {
+  background: none;
+  border-color: #fff;
+  color: #fff;
+}
+
+#intro .intro-info .btn-services {
+  border: 2px solid #fff;
+}
+
+#intro .intro-info .btn-services:hover {
+  background: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
