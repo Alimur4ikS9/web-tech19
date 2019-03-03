@@ -1,6 +1,6 @@
 body {
   background-color: #F8F8F8;
-  min-width: 576px;
+  min-width: 580px;
 }
 
 /*Nav*/
@@ -26,6 +26,7 @@ body {
   position: relative;
   background: url("../img/intro-bg.png") center bottom no-repeat;
   background-size: cover;
+  padding: 30px 10px 40px 10px;
 }
 
 #intro .intro-img {
@@ -98,11 +99,11 @@ body {
 }
 #footer .footer-top {
   background: #004a99;
-  padding: 60px 0 30px 0;
+  padding: 30px 0 30px 0;
 }
 
 #footer .footer-top .footer-info {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 #footer .footer-top .footer-links ul {
   list-style: none;
@@ -117,7 +118,7 @@ body {
 }
 #footer .copyright {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 /*PROFILE*/
@@ -244,11 +245,4 @@ margin: 0;
 	background-size: 100%;
 	padding: 50px 0;
 	margin: 0
-}
-
-/* Quiz */
-
-.quiz-answer-button{
-
-
 }
