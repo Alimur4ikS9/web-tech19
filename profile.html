@@ -10,9 +10,13 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/stylee.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+        <!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script> -->
+        <!-- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+        <!-- <link rel="stylesheet" type="text/css" href="css/stylee.css">
         <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
-        <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
+        <link href="min/custom-min.css" type="text/css" rel="stylesheet" > -->
         <script src="js/Storage.js"></script>
     </head>
 
@@ -43,28 +47,41 @@
                 </div>
           </nav>
 
-        <section id="profile">
           <div class="container">
             <div class="row">
-              <div class="col-md-12 hoverable">
-                <div class="form-group-row">
-                  <div class="col-md-12">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar1.png" style="width: 300px; height: 300px; border-radius: 150px">
+              <div class="col-md-12 text center hoverable">
+                <div class="panel panel-default">
+                  <div class="userprofile social">
+                    <div class="userpic"> 
+                      <img src="img/avatar1.png" alt="" class="userpicimg"> 
+                    </div>
+                    <h3 class="username text-center">Alinur Sabit</h3>
+                    <p class="text-center">Project Manager</p>
+                    <div class="socials text-center"> <a href="" class="btn btn-circle btn-primary ">
+                      <i class="fa fa-facebook"></i></a> <a href="" class="btn btn-circle btn-danger ">
+                      <i class="fa fa-google-plus"></i></a> <a href="" class="btn btn-circle btn-info ">
+                      <i class="fa fa-twitter"></i></a> <a href="" class="btn btn-circle btn-warning ">
+                      <i class="fa fa-envelope"></i></a>
                     </div>
                   </div>
-                  <div class="col-md-12">
-                    <span class="card-title activator grey-text text-darken-4">Alinur Sabit<br/>
-                        <small><em><a class="red-text text-darken-1">Project Manager</a></em></small></span>
-                    <p>
-                        <a class="blue-text text-lighten-2" href="https://www.facebook.com/alinur.sabit" target="_blank" style="margin-top: 50px">
-                            <i class="fa fa-facebook-square"></i>
-                        </a>
-                        <a class="blue-text text-lighten-2" href="https://kz.linkedin.com/in/alinur-sabit-3a361512a" target="_blank">
-                            <i class="fa fa-linkedin-square"></i>
-                        </a>
-                    </p>
-                  </div>
+                  <div class="col-md-12 border-top border-bottom" style="margin-top: 50px;">
+                      <ul class="nav nav-pills pull-left countlist" role="tablist" style="display: flex; justify-content: auto;">
+                        <li role="presentation">
+                          <h3>120<br>
+                            <small>Points</small> </h3>
+                        </li>
+                        <li role="presentation">
+                          <h3>10<br>
+                            <small>Quiz's taken</small> </h3>
+                        </li>
+                        <li role="presentation">
+                          <h3>5<br>
+                            <small>Friends</small> </h3>
+                        </li>
+                      </ul>
+                      <button class="btn btn-primary userbtn">Friend</button>
+                      <button class="btn btn-primary userbtn">Cart</button>
+                    </div>
                 </div>
                   
               </div>
@@ -76,7 +93,7 @@
                   
           
           </div>
-          </section>
+          
         
         <footer class="footer"></footer>
 
