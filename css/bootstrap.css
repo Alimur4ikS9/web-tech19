@@ -4433,7 +4433,7 @@ tbody.collapse.show {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-  flex-direction: column;
+  flex-direction: row;
   min-width: 0;
   word-wrap: break-word;
   background-color: #fff;
