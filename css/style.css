@@ -1,21 +1,9 @@
 body {
-<<<<<<< HEAD
-    background-color: #F8F8F8;
-  }
-
-  /*--------------------------------------------------------------
-# Navbar Section
---------------------------------------------------------------*/
-/*  */
-  .navbar-collapse{
-=======
   background-color: #F8F8F8;
 }
 
 /*Nav*/
-
 .navbar-collapse{
->>>>>>> 30cf0e22b7df9fdfaa46d68779a4699f61608631
   justify-content: flex-end;
 }
 .navbar-toggler{
