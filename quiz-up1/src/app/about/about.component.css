@@ -1,3 +1,7 @@
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
 .section-header h3 {
     font-size: 36px;
     color: #283d50;

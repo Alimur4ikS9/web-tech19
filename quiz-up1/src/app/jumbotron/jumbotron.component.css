@@ -1,7 +1,7 @@
 #intro {
     width: 100%;
     position: relative;
-    background: url("src/assets/img/intro-bg.png") center bottom no-repeat;
+    background: url("../../assets/img/intro-bg.png") center bottom no-repeat;
     background-size: cover;
     padding: 200px 0 120px 0;
   }
