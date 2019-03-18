@@ -1,0 +1,16 @@
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    background:#11A6F1 !important;
+}
+  
+.nav-link , .navbar-brand {
+    color: #11A6F1 !important;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}

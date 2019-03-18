@@ -1,0 +1,38 @@
+#container {
+    padding: 2px 16px;
+  }
+  
+  .companies #tagline1 {
+    margin-top: 24px;
+    font-style: normal;
+    line-height: normal;
+    text-align: center; 
+    color: #00366f; 
+  }
+  
+  .companies #tagline2 {
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    color: #00366f; 
+  }
+  
+  .companies #card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  
+  .companies #card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .companies #card h4 {
+    vertical-align: bottom;
+    text-align: center; 
+  }
