@@ -13,6 +13,8 @@ import { PartnersComponent } from './partners/partners.component';
 import { CompaniesComponent } from './companies/companies.component';
 import { ProfileComponent } from './profile/profile.component';
 import { AccountComponent } from './account/account.component';
+import { QuizComponent } from './quiz/quiz.component';
+import { ChoosedTestPageComponent } from './choosed-test-page/choosed-test-page.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { AccountComponent } from './account/account.component';
     PartnersComponent,
     CompaniesComponent,
     ProfileComponent,
-    AccountComponent
+    AccountComponent,
+    QuizComponent,
+    ChoosedTestPageComponent
   ],
   imports: [
     BrowserModule,
