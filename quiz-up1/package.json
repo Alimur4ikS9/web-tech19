@@ -1,5 +1,5 @@
 {
-  "name": "quiz-up",
+  "name": "jsonand-angular4",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,8 +7,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
+    "json-server": "json-server --watch db.json --port 3004",
     "e2e": "ng e2e"
   },
+  
   "private": true,
   "dependencies": {
     "@angular/animations": "~7.2.0",

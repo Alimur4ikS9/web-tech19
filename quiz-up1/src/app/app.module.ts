@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+// import { HttpClient } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -34,6 +34,7 @@ import { ChoosedTestPageComponent } from './choosed-test-page/choosed-test-page.
   ],
   imports: [
     BrowserModule,
+    // HttpClient,
     AppRoutingModule
   ],
   providers: [],
