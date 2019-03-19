@@ -15,6 +15,9 @@ import { ProfileComponent } from './profile/profile.component';
 import { AccountComponent } from './account/account.component';
 import { QuizComponent } from './quiz/quiz.component';
 import { ChoosedTestPageComponent } from './choosed-test-page/choosed-test-page.component';
+import { RegistrationComponent } from './registration/registration.component';
+import { RegformComponent } from './regform/regform.component';
+import { LogformComponent } from './logform/logform.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,10 @@ import { ChoosedTestPageComponent } from './choosed-test-page/choosed-test-page.
     ProfileComponent,
     AccountComponent,
     QuizComponent,
-    ChoosedTestPageComponent
+    ChoosedTestPageComponent,
+    RegistrationComponent,
+    RegformComponent,
+    LogformComponent
   ],
   imports: [
     BrowserModule,
