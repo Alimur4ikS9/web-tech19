@@ -11,6 +11,8 @@ import { TeamInfoComponent } from './team-info/team-info.component';
 import { MainComponent } from './main/main.component';
 import { PartnersComponent } from './partners/partners.component';
 import { CompaniesComponent } from './companies/companies.component';
+import { ProfileComponent } from './profile/profile.component';
+import { AccountComponent } from './account/account.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { CompaniesComponent } from './companies/companies.component';
     TeamInfoComponent,
     MainComponent,
     PartnersComponent,
-    CompaniesComponent
+    CompaniesComponent,
+    ProfileComponent,
+    AccountComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,130 @@
+.nav>li>a.userdd {
+    padding: 5px 15px
+  }
+
+.hoverable {
+    padding: 0;
+}
+
+.userprofile {
+width: 100%;
+float: left;
+clear: both;
+margin: 40px auto
+}
+.userprofile .userpic {
+height:150px;
+width: 150px;
+clear: both;
+margin: 0 auto;
+display: block;
+border-radius: 100%;
+box-shadow: 0px 3px 10px 0 rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 0px 3px 10px 0 rgba(0, 0, 0, 0.15);
+-webkit-box-shadow: 0px 3px 10px 0 rgba(0, 0, 0, 0.15);
+-ms-box-shadow: 0px 3px 10px 0 rgba(0, 0, 0, 0.15);
+position: relative; 
+}
+.userprofile .userpic .userpicimg {
+height: auto;
+width: 100%;
+border-radius: 100%;
+}
+.username {
+font-weight: 400;
+font-size: 30px;
+line-height: 30px;
+color:black;
+margin-top: 20px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.username+p {
+color: black;
+font-size: 15px;
+line-height: 20px;
+white-space: nowrap;
+text-overflow: ellipsis;
+overflow: hidden;
+}
+
+.userprofile.small {
+width: auto;
+clear: both;
+margin: 0px auto;
+}
+.userprofile.small .userpic {
+height: 40px;
+width: 40px;
+margin: 0 10px 0 0;
+display: block;
+border-radius: 100%;
+box-shadow: 0px 3px 10px 0 rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 0px 3px 10px 0 rgba(0, 0, 0, 0.15);
+-webkit-box-shadow: 0px 3px 10px 0 rgba(0, 0, 0, 0.15);
+-ms-box-shadow: 0px 3px 10px 0 rgba(0, 0, 0, 0.15);
+position: relative;
+float: left;
+}
+.userprofile.small .textcontainer {
+float: left;
+max-width: 100px;
+padding: 0
+}
+.userprofile.small .userpic .userpicimg {
+min-height: 100%;
+width: 100%;
+border-radius: 100%;
+}
+.userprofile.small .username {
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #000000;
+margin: 0px;
+float: left;
+width: 100%;
+}
+.userprofile.small .username+p {
+color: #607d8b;
+font-size: 13px;
+float: left;
+width: 100%;
+margin: 0;
+}
+
+/*SOCIAL PROFILE*/
+
+.countlist h3 {
+    margin: 0;
+    font-weight: 400;
+    line-height: 28px;
+}
+.countlist {
+    text-transform: uppercase
+}
+.countlist li {
+    padding: 15px 30px 15px 0;
+    font-size: 14px;
+    text-align: left;
+}
+.countlist li small {
+    font-size: 12px;
+    margin: 0
+}
+.userbtn {
+    float: right;
+    margin: 22px 22px 22px 0;
+}
+
+.userprofile.social {
+    background: url(https://wallpapercave.com/wp/wp2406986.jpg) no-repeat top center;
+    background-size: 100%;
+    padding: 50px 0;
+    margin: 0
+}
+
+.btn-circle {
+    margin: 0 5px;
+}
